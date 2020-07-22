@@ -11,6 +11,8 @@
   },
   "deprecated": false,
   "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/passport": "^1.0.4",
     "vows": "0.8.x"
   },
   "engines": {
