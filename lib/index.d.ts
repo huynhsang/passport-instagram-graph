@@ -41,7 +41,7 @@ export class Strategy extends passport.Strategy {
       accessToken: string,
       refreshToken: string,
       profile: Profile,
-      done: (error: any, user?: any) => void
+      done: (error: any, user?: any, info?: any) => void
     ) => void
   );
   constructor(
@@ -51,7 +51,7 @@ export class Strategy extends passport.Strategy {
       accessToken: string,
       refreshToken: string,
       profile: Profile,
-      done: (error: any, user?: any) => void
+      done: (error: any, user?: any, info?: any) => void
     ) => void
   );
 
